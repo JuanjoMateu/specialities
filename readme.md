@@ -4,7 +4,7 @@ Este ejercicio tiene como objetivo practicar el uso de Express para crear un ser
 
 Lee el ejercicio completamente antes de empezar para poder entenderlo.
 
-Una vez clonado el ejercico deberás hacer `npm install` en terminal para instalar las dependencias que están en `package.json` 
+Una vez clonado el ejercicio deberás hacer `npm install` en terminal para instalar las dependencias que están en `package.json` 
 
 ## Objetivo del Ejercicio
 
@@ -15,7 +15,7 @@ Una vez clonado el ejercico deberás hacer `npm install` en terminal para instal
   - Configura un servidor Express.
   - Crea rutas para la página principal (/) y diferentes especialidades como marketing (/marketing), developers (/developers), etc...
   - Implementa el manejo de errores 404 para rutas no definidas.
-  - Las rutas serán las mismas de las `specialty` (abajo hay un objeto con datos que usarás para crear lo qiue pide el ejercicio)
+  - Las rutas serán las mismas de las `specialty` (abajo hay un objeto con datos que usarás para crear lo que pide el ejercicio)
 
 3. Filtrado de Usuarios por Especialidad:
   - Crea una función para filtrar usuarios por su especialidad.
@@ -32,7 +32,7 @@ http://localhost:3000/developers
   - Intenta acceder a una ruta no definida para verificar el manejo de errores 404.
   - En la ruta "/" puedes crear una navegación que vaya a cada una de las páginas y en cada página puedes repetir esa navegación o solo un volver a home "/".
 
-Estos serán los usuarios a los que hay que acceder y en cada una de las páginas solo saldrán los que tengas las mismas especialidades:
+Estos serán los usuarios a los que hay que acceder y en cada una de las páginas solo saldrán los que tengan las mismas especialidades:
 * Conjunto de Datos de Usuarios
 
 const usersData = [
